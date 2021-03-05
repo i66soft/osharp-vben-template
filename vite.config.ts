@@ -49,6 +49,7 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
       hmr: {
         overlay: true,
       },
+      open: true,
     },
 
     build: {
